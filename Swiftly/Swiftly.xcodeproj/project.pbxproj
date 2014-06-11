@@ -7,9 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		236E060F1948662E00B0E2C5 /* Swiftly.h in Headers */ = {isa = PBXBuildFile; fileRef = 236E060E1948662E00B0E2C5 /* Swiftly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		231F87AE1948CF32002814F7 /* EncapsulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F87AD1948CF32002814F7 /* EncapsulationTests.swift */; };
 		236E06151948662E00B0E2C5 /* Swiftly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236E06091948662E00B0E2C5 /* Swiftly.framework */; };
-		236E061C1948662E00B0E2C5 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236E061B1948662E00B0E2C5 /* Arrays.swift */; };
+		236E061C1948662E00B0E2C5 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236E061B1948662E00B0E2C5 /* ArrayTests.swift */; };
+		236F58691948CE1100B20E17 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F585F1948CE1100B20E17 /* Animal.swift */; };
+		236F586A1948CE1100B20E17 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F585F1948CE1100B20E17 /* Animal.swift */; };
+		236F586B1948CE1100B20E17 /* Bark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58601948CE1100B20E17 /* Bark.swift */; };
+		236F586C1948CE1100B20E17 /* Bark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58601948CE1100B20E17 /* Bark.swift */; };
+		236F586D1948CE1100B20E17 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58611948CE1100B20E17 /* Bird.swift */; };
+		236F586E1948CE1100B20E17 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58611948CE1100B20E17 /* Bird.swift */; };
+		236F586F1948CE1100B20E17 /* Chirp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58621948CE1100B20E17 /* Chirp.swift */; };
+		236F58701948CE1100B20E17 /* Chirp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58621948CE1100B20E17 /* Chirp.swift */; };
+		236F58711948CE1100B20E17 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58631948CE1100B20E17 /* Dog.swift */; };
+		236F58721948CE1100B20E17 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58631948CE1100B20E17 /* Dog.swift */; };
+		236F58731948CE1100B20E17 /* Fly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58641948CE1100B20E17 /* Fly.swift */; };
+		236F58741948CE1100B20E17 /* Fly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58641948CE1100B20E17 /* Fly.swift */; };
+		236F58751948CE1100B20E17 /* FlyingDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58651948CE1100B20E17 /* FlyingDog.swift */; };
+		236F58761948CE1100B20E17 /* FlyingDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58651948CE1100B20E17 /* FlyingDog.swift */; };
+		236F58771948CE1100B20E17 /* MakeSoundProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58661948CE1100B20E17 /* MakeSoundProtocol.swift */; };
+		236F58781948CE1100B20E17 /* MakeSoundProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58661948CE1100B20E17 /* MakeSoundProtocol.swift */; };
+		236F58791948CE1100B20E17 /* MoveProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58671948CE1100B20E17 /* MoveProtocol.swift */; };
+		236F587A1948CE1100B20E17 /* MoveProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58671948CE1100B20E17 /* MoveProtocol.swift */; };
+		236F587B1948CE1100B20E17 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58681948CE1100B20E17 /* Walk.swift */; };
+		236F587C1948CE1100B20E17 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F58681948CE1100B20E17 /* Walk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +43,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231F87AD1948CF32002814F7 /* EncapsulationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncapsulationTests.swift; sourceTree = "<group>"; };
 		236E06091948662E00B0E2C5 /* Swiftly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swiftly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		236E060D1948662E00B0E2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		236E060E1948662E00B0E2C5 /* Swiftly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swiftly.h; sourceTree = "<group>"; };
 		236E06141948662E00B0E2C5 /* SwiftlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		236E061A1948662E00B0E2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		236E061B1948662E00B0E2C5 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		236E061B1948662E00B0E2C5 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
+		236F585F1948CE1100B20E17 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		236F58601948CE1100B20E17 /* Bark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bark.swift; sourceTree = "<group>"; };
+		236F58611948CE1100B20E17 /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		236F58621948CE1100B20E17 /* Chirp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chirp.swift; sourceTree = "<group>"; };
+		236F58631948CE1100B20E17 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		236F58641948CE1100B20E17 /* Fly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fly.swift; sourceTree = "<group>"; };
+		236F58651948CE1100B20E17 /* FlyingDog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyingDog.swift; sourceTree = "<group>"; };
+		236F58661948CE1100B20E17 /* MakeSoundProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeSoundProtocol.swift; sourceTree = "<group>"; };
+		236F58671948CE1100B20E17 /* MoveProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveProtocol.swift; sourceTree = "<group>"; };
+		236F58681948CE1100B20E17 /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +80,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		231F87AF1948D0FA002814F7 /* Protocolls */ = {
+			isa = PBXGroup;
+			children = (
+				236F58661948CE1100B20E17 /* MakeSoundProtocol.swift */,
+				236F58671948CE1100B20E17 /* MoveProtocol.swift */,
+			);
+			name = Protocolls;
+			sourceTree = "<group>";
+		};
+		231F87B01948D11E002814F7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				236F58601948CE1100B20E17 /* Bark.swift */,
+				236F58621948CE1100B20E17 /* Chirp.swift */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		231F87B11948D127002814F7 /* Moves */ = {
+			isa = PBXGroup;
+			children = (
+				236F58641948CE1100B20E17 /* Fly.swift */,
+				236F58681948CE1100B20E17 /* Walk.swift */,
+			);
+			name = Moves;
+			sourceTree = "<group>";
+		};
+		231F87B21948D136002814F7 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				236F585F1948CE1100B20E17 /* Animal.swift */,
+				236F58611948CE1100B20E17 /* Bird.swift */,
+				236F58631948CE1100B20E17 /* Dog.swift */,
+				236F58651948CE1100B20E17 /* FlyingDog.swift */,
+			);
+			name = Animals;
+			sourceTree = "<group>";
+		};
 		236E05FF1948662E00B0E2C5 = {
 			isa = PBXGroup;
 			children = (
@@ -71,7 +139,10 @@
 		236E060B1948662E00B0E2C5 /* Swiftly */ = {
 			isa = PBXGroup;
 			children = (
-				236E060E1948662E00B0E2C5 /* Swiftly.h */,
+				231F87AF1948D0FA002814F7 /* Protocolls */,
+				231F87B21948D136002814F7 /* Animals */,
+				231F87B01948D11E002814F7 /* Sounds */,
+				231F87B11948D127002814F7 /* Moves */,
 				236E060C1948662E00B0E2C5 /* Supporting Files */,
 			);
 			path = Swiftly;
@@ -88,8 +159,9 @@
 		236E06181948662E00B0E2C5 /* SwiftlyTests */ = {
 			isa = PBXGroup;
 			children = (
-				236E061B1948662E00B0E2C5 /* Arrays.swift */,
+				236E061B1948662E00B0E2C5 /* ArrayTests.swift */,
 				236E06191948662E00B0E2C5 /* Supporting Files */,
+				231F87AD1948CF32002814F7 /* EncapsulationTests.swift */,
 			);
 			path = SwiftlyTests;
 			sourceTree = "<group>";
@@ -109,7 +181,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236E060F1948662E00B0E2C5 /* Swiftly.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236F586F1948CE1100B20E17 /* Chirp.swift in Sources */,
+				236F58791948CE1100B20E17 /* MoveProtocol.swift in Sources */,
+				236F587B1948CE1100B20E17 /* Walk.swift in Sources */,
+				236F58731948CE1100B20E17 /* Fly.swift in Sources */,
+				236F58751948CE1100B20E17 /* FlyingDog.swift in Sources */,
+				236F58771948CE1100B20E17 /* MakeSoundProtocol.swift in Sources */,
+				236F58691948CE1100B20E17 /* Animal.swift in Sources */,
+				236F586D1948CE1100B20E17 /* Bird.swift in Sources */,
+				236F58711948CE1100B20E17 /* Dog.swift in Sources */,
+				236F586B1948CE1100B20E17 /* Bark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +298,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236E061C1948662E00B0E2C5 /* Arrays.swift in Sources */,
+				231F87AE1948CF32002814F7 /* EncapsulationTests.swift in Sources */,
+				236F586C1948CE1100B20E17 /* Bark.swift in Sources */,
+				236E061C1948662E00B0E2C5 /* ArrayTests.swift in Sources */,
+				236F587C1948CE1100B20E17 /* Walk.swift in Sources */,
+				236F58721948CE1100B20E17 /* Dog.swift in Sources */,
+				236F58741948CE1100B20E17 /* Fly.swift in Sources */,
+				236F58781948CE1100B20E17 /* MakeSoundProtocol.swift in Sources */,
+				236F586E1948CE1100B20E17 /* Bird.swift in Sources */,
+				236F587A1948CE1100B20E17 /* MoveProtocol.swift in Sources */,
+				236F58761948CE1100B20E17 /* FlyingDog.swift in Sources */,
+				236F586A1948CE1100B20E17 /* Animal.swift in Sources */,
+				236F58701948CE1100B20E17 /* Chirp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +492,7 @@
 				236E06211948662E00B0E2C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		236E06221948662E00B0E2C5 /* Build configuration list for PBXNativeTarget "SwiftlyTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +501,7 @@
 				236E06241948662E00B0E2C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

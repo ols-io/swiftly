@@ -1,6 +1,6 @@
 import XCTest
 
-class Arrays: XCTestCase {
+class ArrayTests: XCTestCase {
     
     func testEmptyArrayCreation() {
         let emptyArrayFromFunction = String[]()
