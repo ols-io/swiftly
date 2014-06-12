@@ -1,6 +1,6 @@
 import XCTest
 
-class EncapsulationTests: XCTestCase {
+class CompositionTests: XCTestCase {
     
     
     func testDogBarksAndWalks() {
